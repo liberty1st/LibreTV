@@ -29,4 +29,4 @@ jobs:
           target_sync_branch: main        # 你 Fork 仓库的目标分支（如果是 master 请改成 master）
           target_repo_token: ${{ secrets.GITHUB_TOKEN }} # GitHub 官方默认 Token
           upstream_sync_branch: main      # 原作者仓库的主分支名称（如果是 master 请改成 master）
-          upstream_sync_repo: 原作者用户名/原仓库名  # ⚠️【注意修改】：改成原作者的仓库名称
+          upstream_sync_repo: LibreSpark/LibreTV  # ⚠️【注意修改】：改成原作者的仓库名称
